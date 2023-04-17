@@ -13,11 +13,12 @@ body{
     background-position: center center;
     background-size: cover;
     background-position: center;
-    padding: 50px;
+    padding-top: 0%;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     color: black;
+    
     }
 .row{
     display: flex;
@@ -26,15 +27,16 @@ body{
 }
 .columna1{
     width: 50%;
-    
+    margin-left: auto;
     font-size: 30px;
 }
 .columna100{
     width: 100%;
-}
+    text-align: center;
+    }
 .column-6{
     width: 25%;
-    
+    margin-left: auto;
     font-size: 30px;
 }
 .estilos{
@@ -45,3 +47,9 @@ body{
 .fondo{
     background-color: aquamarine;
 }
+.columna101{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(87, 127, 226);
+    }
